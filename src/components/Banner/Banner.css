@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+.banner-start{
+    max-width: 1201px;
+    width: 100%;
+    background-image: url(../../assets/banner.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-self: center;
+    border-radius: 40px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 32px;
+}
+
+.banner-content{
+    margin-left: 20px;
+    padding: 20vh 2vh;
+    gap: 21px;
+}
+
+#banner-h1{
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 65px;
+}
+
+#banner-btn{
+    color: #FFFFFF;
+    background-color: #1D1D1D;
+    border: none;
+    padding: 26px 50px;
+    border-radius: 18px;
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+}
+
+#banner-p{
+    font-size: 22px;
+}

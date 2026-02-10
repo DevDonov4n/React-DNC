@@ -20,12 +20,59 @@ function Projects(){
                 <p id="projects-p">It is a long established fact that a reader will be distracted by the of readable content of page  lookings at its layouts  points.</p>
             </div>
             <div className="projects-grid d-flex jc-space-between container">
-                <div className="card-projects al-center ">
-                    <img src={ ft1 } />
+                <div className="card-projects">
+                    <img className="img-projects" src={ ft1 } />
                     <h3>Levi Cohen</h3>
                     <p>New York, USA</p>
                     <a href="/"><img src={ gostar } /></a>
-                </div> 
+                </div>
+                <div className="card-projects">
+                    <img className="img-projects" src={ ft2 } />
+                    <h3>Levi Cohen</h3>
+                    <p>New York, USA</p>
+                    <a href="/"><img src={ gostar } /></a>
+                </div>
+                <div className="card-projects">
+                    <img className="img-projects" src={ ft3 } />
+                    <h3>Levi Cohen</h3>
+                    <p>New York, USA</p>
+                    <a href="/"><img src={ gostar } /></a>
+                </div>
+                <div className="card-projects">
+                    <img className="img-projects" src={ ft4 } />
+                    <h3>Levi Cohen</h3>
+                    <p>New York, USA</p>
+                    <a href="/"><img src={ gostar } /></a>
+                </div>
+                
+            </div>
+            <br />
+            <div className="projects-grid d-flex jc-space-between container">
+                <div className="card-projects">
+                    <img className="img-projects" src={ ft5 } />
+                    <h3>Levi Cohen</h3>
+                    <p>New York, USA</p>
+                    <a href="/"><img src={ gostar } /></a>
+                </div>
+                <div className="card-projects">
+                    <img className="img-projects" src={ ft6 } />
+                    <h3>Levi Cohen</h3>
+                    <p>New York, USA</p>
+                    <a href="/"><img src={ gostar } /></a>
+                </div>
+                <div className="card-projects">
+                    <img className="img-projects" src={ ft7 } />
+                    <h3>Levi Cohen</h3>
+                    <p>New York, USA</p>
+                    <a href="/"><img src={ gostar } /></a>
+                </div>
+                <div className="card-projects">
+                    <img className="img-projects" src={ ft8 } />
+                    <h3>Levi Cohen</h3>
+                    <p>New York, USA</p>
+                    <a href="/"><img src={ gostar } /></a>
+                </div>
+                
             </div>
         </section>
 

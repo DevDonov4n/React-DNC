@@ -33,6 +33,12 @@
     border-radius: 18px;
     font-family: "Jost", sans-serif;
     font-size: 18px;
+    transition: 0.3s;
+
+    &:hover{
+        font-size: 20px;
+        transform: translateY(-3px);
+    }
 }
 
 #banner-p{

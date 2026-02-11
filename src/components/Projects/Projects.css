@@ -18,3 +18,48 @@
 .img-projects{
     border-radius: 20px;
 }
+
+.card-title{
+    font-family: "DM Serif Display", serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.card-projects{
+    justify-items: center;
+    transition: 0.3s;
+    border-radius: 20px 20px 35px 35px;
+    & > p{
+       margin: 5px 0; 
+       font-size: 18px;
+    }
+    & > h3{
+        margin: 5px 0;
+    }
+    &:hover{
+        box-shadow: rgba(100, 100, 111, 0.15) 0px 6px 20px;
+        transform: translateY(-3px);
+        background-color: #f8f8f8;
+        
+        & > .like-projects{
+            background-color: #f8f8f8;
+        }
+        
+    }
+}
+
+.like-projects{
+    background-image: url(../../assets/gostar\ 1.svg);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: #ffff;
+    margin: 10px 45%;
+    transition: 0.3s;
+    &:hover{
+        background-image: url(../../assets/like_880605\ 1.svg);
+        cursor: pointer;
+        transform: translateY(-3px);
+    }
+}

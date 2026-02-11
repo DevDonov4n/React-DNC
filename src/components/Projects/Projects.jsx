@@ -22,27 +22,27 @@ function Projects(){
             <div className="projects-grid d-flex jc-space-between container">
                 <div className="card-projects">
                     <img className="img-projects" src={ ft1 } />
-                    <h3>Levi Cohen</h3>
+                    <h3 className="card-title">Levi Cohen</h3>
                     <p>New York, USA</p>
-                    <a href="/"><img src={ gostar } /></a>
+                    <button className="like-projects" type="submit" href="/"></button>
                 </div>
                 <div className="card-projects">
                     <img className="img-projects" src={ ft2 } />
-                    <h3>Levi Cohen</h3>
-                    <p>New York, USA</p>
-                    <a href="/"><img src={ gostar } /></a>
+                    <h3 className="card-title">Julia Souza</h3>
+                    <p>São Paulo, Brasil</p>
+                    <button className="like-projects" type="submit" href="/"></button>
                 </div>
                 <div className="card-projects">
                     <img className="img-projects" src={ ft3 } />
-                    <h3>Levi Cohen</h3>
-                    <p>New York, USA</p>
-                    <a href="/"><img src={ gostar } /></a>
+                    <h3 className="card-title">João Silva</h3>
+                    <p>Belo Horizonte, Brasil</p>
+                    <button className="like-projects" type="submit" href="/"></button>
                 </div>
                 <div className="card-projects">
                     <img className="img-projects" src={ ft4 } />
-                    <h3>Levi Cohen</h3>
-                    <p>New York, USA</p>
-                    <a href="/"><img src={ gostar } /></a>
+                    <h3 className="card-title">Nora Owen</h3>
+                    <p>Melbourne, Australia</p>
+                    <button className="like-projects" type="submit" href="/"></button>
                 </div>
                 
             </div>
@@ -50,27 +50,27 @@ function Projects(){
             <div className="projects-grid d-flex jc-space-between container">
                 <div className="card-projects">
                     <img className="img-projects" src={ ft5 } />
-                    <h3>Levi Cohen</h3>
-                    <p>New York, USA</p>
-                    <a href="/"><img src={ gostar } /></a>
+                    <h3 className="card-title">Sofia Carter</h3>
+                    <p>Los Angeles, USA</p>
+                    <button className="like-projects" type="submit" href="/"></button>
                 </div>
                 <div className="card-projects">
                     <img className="img-projects" src={ ft6 } />
-                    <h3>Levi Cohen</h3>
-                    <p>New York, USA</p>
-                    <a href="/"><img src={ gostar } /></a>
+                    <h3 className="card-title">Pedro Alves</h3>
+                    <p>São Paulo, Brasil</p>
+                    <button className="like-projects" type="submit" href="/"></button>
                 </div>
                 <div className="card-projects">
                     <img className="img-projects" src={ ft7 } />
-                    <h3>Levi Cohen</h3>
-                    <p>New York, USA</p>
-                    <a href="/"><img src={ gostar } /></a>
+                    <h3 className="card-title">Luana Rodriguez</h3>
+                    <p>Rio de Janeiro, Brasil</p>
+                    <button className="like-projects" type="submit" href="/"></button>
                 </div>
                 <div className="card-projects">
                     <img className="img-projects" src={ ft8 } />
-                    <h3>Levi Cohen</h3>
+                    <h3 className="card-title">Gianna	Mateo</h3>
                     <p>New York, USA</p>
-                    <a href="/"><img src={ gostar } /></a>
+                    <button className="like-projects" type="submit" href="/"></button>
                 </div>
                 
             </div>

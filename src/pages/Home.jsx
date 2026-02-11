@@ -1,6 +1,6 @@
 import Header from "../components/Header/Header";
 import Banner from "../components/Banner/Banner";
-import Projects from "../components/Projects/Projects";
+import ProjectsGrid from "../components/ProjectsGrid/ProjectsGrid";
 import Footer from "../components/Footer/Footer";
 
 function Home() {
@@ -8,7 +8,7 @@ function Home() {
         <>
             <Header/>
             <Banner/>
-            <Projects/>
+            <ProjectsGrid/>
             <Footer/>
         </>
     )

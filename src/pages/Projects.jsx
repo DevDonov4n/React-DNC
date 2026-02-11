@@ -1,10 +1,21 @@
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
+import ProjectsGrid from "../components/ProjectsGrid/ProjectsGrid";
+
+import './Projects.css'
+
+
 function Projects() {
     return (
         <>
-            <h1>Projects</h1>
-            <p>Subtitle</p>
+            <Header />
+            <banner>
+                <h1>Projetos</h1>
+            </banner>
+            <ProjectsGrid />
+            <Footer />
         </>
-    )
+    );
 }
 
 export default Projects;

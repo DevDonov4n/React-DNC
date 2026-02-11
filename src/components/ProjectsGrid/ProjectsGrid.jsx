@@ -1,4 +1,4 @@
-import "../Projects/Projects.css"
+import "../ProjectsGrid/ProjectsGrid.css"
 
 //ASSETS
 import ft1 from '../../assets/Photo (1).svg';
@@ -9,9 +9,9 @@ import ft5 from '../../assets/Photo (5).svg';
 import ft6 from '../../assets/Photo (6).svg';
 import ft7 from '../../assets/Photo (7).svg';
 import ft8 from '../../assets/Photo (8).svg';
-import gostar from '../../assets/gostar 1.svg'
 
-function Projects(){
+
+function ProjectsGrid(){
     return(
         <>
         <section className="projects-section">
@@ -81,4 +81,4 @@ function Projects(){
     )
 }
 
-export default Projects
+export default ProjectsGrid

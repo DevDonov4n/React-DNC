@@ -17,6 +17,7 @@ a {
 .footer-info{
     display: flex;
     justify-content: space-between;
+    padding-left: 100px;
 }
 
 .footer-intro{
@@ -63,7 +64,7 @@ a {
 }
 
 .footer-contact{
-    margin: 0 250px;
+    margin: 0 50px;
     
 
     & > p{

@@ -1,10 +1,15 @@
+import Footer from "../components/Footer/Footer";
+import Header from "../components/Header/Header";
 function About() {
     return (
         <>
-            <h1>About</h1>
-            <p>Subtitle</p>
+            <Header />
+            <banner>
+                <h1>Sobre Nós</h1>
+            </banner>
+            <Footer />
         </>
-    )
+    );
 }
 
 export default About;

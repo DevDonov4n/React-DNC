@@ -1,0 +1,38 @@
+.banner-about{
+    background-image: url(../assets/banner-about.svg);
+    width: 100%;
+    padding-top: 10.5rem;
+    
+    & > h1{
+        padding: 41px 68px;
+        justify-self: center;
+        font-family: "DM Serif Display", serif;
+        font-size: 50px;
+        font-weight: 400;
+        background-color: #ffff;
+        border-radius: 37px 37px 0 0;
+    }
+}
+
+.about-content{
+    display: flex;
+    padding: 70px 6rem;
+    width: 85%;
+    & > h1{
+        font-family: "DM Serif Display", serif;
+        font-size: 50px;
+        font-weight: 400;
+    }
+    
+}
+#about-color{
+    color: #0C70F2;
+}
+
+.about-info{
+    width: 85%;
+    & > p{
+        font-size: 25px;
+    }
+   
+}

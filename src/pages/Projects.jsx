@@ -9,9 +9,9 @@ function Projects() {
     return (
         <>
             <Header />
-            <banner>
-                <h1>Projetos</h1>
-            </banner>
+            <section className="banner-projects">
+                <h1>Projects</h1>
+            </section>
             <ProjectsGrid />
             <Footer />
         </>

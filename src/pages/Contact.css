@@ -1,0 +1,15 @@
+.banner-contact{
+    background-image: url(../assets/banner-contact.svg);
+    width: 100%;
+    padding-top: 10.5rem;
+    
+    & > h1{
+        padding: 41px 68px;
+        justify-self: center;
+        font-family: "DM Serif Display", serif;
+        font-size: 50px;
+        font-weight: 400;
+        background-color: #ffff;
+        border-radius: 37px 37px 0 0;
+    }
+}
